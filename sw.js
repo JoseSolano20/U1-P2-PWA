@@ -29,7 +29,7 @@ self.addEventListener('fetch',(event)=>{
 
 self.addEventListener('fetch',(event)=>{
     if(event.request.url.includes('animal1.jpg')){
-        let foto = fetch('/josesolano20.github.io/U1-P2-PWA/animal2.jpg');
+        let foto = fetch('animal2.jpg');
         event.respondWith(foto);
     }
 });
